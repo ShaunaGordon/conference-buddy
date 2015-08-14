@@ -1,12 +1,13 @@
 {
-    "name": "Infinite Love",
-    "description": "A dating/matching site designed for polyamorous and ethically non-monogamous people.",
+    "name": "Conference Buddy",
+    "description": "Finding groups, roommates, and travel friends for conference attendees.",
     "keywords": [],
-    "license": "proprietary",
+    "license": "none",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
+        "laravel/framework": "5.1.*",
+        "laravel/socialite": "2.0.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
