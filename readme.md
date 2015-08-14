@@ -1,27 +1,26 @@
-## Laravel PHP Framework
+# Conference Buddy
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+With larger conferences, especially, it's difficult to coordinate with people in order to break off into smaller
+groups. It can also be difficult to find a travel companion or roommate. Conference Buddy is here to fix that.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Running Development Version
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+The easiest way is to add it to [Laravel Homestead](http://laravel.com/docs/5.1/homestead), which is what it's built on.
 
-## Official Documentation
+If you want to do it the hard way, you'll want the following:
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+* PHP 5.6.10+
+* PostgreSQL 9.4.4+
+* Composer
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+My current plan/ideas can be found on the [Coggle.it mindmap](https://coggle
+.it/diagram/Vc4HBbdZts0H3COf/0198157145cf3d64af0b403bbd9b05fe7aae9fb212ec0a8bff27c28cc97ba871), feel free to check it
+ out and ping me somewhere if you want to flesh a piece out and help build it.
 
-## Security Vulnerabilities
+ Once the API/core is built, I could also use help with frontends. I'm starting with web, but it would be cool to
+ have mobile apps, too.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+ I'd like to keep this as well-documented and organized as possible, so be sure to include PHPSpec (or similar *Spec
+ stuff when dealing with other languages) and Unit tests whenever possible.
