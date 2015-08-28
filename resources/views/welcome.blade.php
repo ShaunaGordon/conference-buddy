@@ -38,7 +38,11 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <?php if(\Illuminate\Support\Facades\Auth::user()) { ?>
+                <div class="title">Woot!</div>
+                    <?php } else { ?>
+                <div class="title"><a href="/auth/github">Sign In With Github</a></div>
+                <?php } ?>
             </div>
         </div>
     </body>
